@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,20 @@ namespace _28_1_2025
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void SignIn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SignIn.aspx");
+        }
+    
+
+
+        
+
+        protected void SignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SignUp.aspx");
         }
     }
 }

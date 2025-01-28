@@ -1,0 +1,2 @@
+Room1 C5 Single 25
+Room2 C7 Double 20

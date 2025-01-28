@@ -67,10 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddBooks.aspx" />
+    <Content Include="AdminCards.aspx" />
+    <Content Include="App_Data\BookesAdded.txt" />
+    <Content Include="App_Data\meetingRoom.txt" />
     <Content Include="homePage.aspx" />
+    <Content Include="seeBooks.aspx" />
+    <Content Include="seeMeetingRoom.aspx" />
+    <Content Include="Showbooks.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="UserCards.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBooks.aspx.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBooks.aspx.designer.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCards.aspx.cs">
+      <DependentUpon>AdminCards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCards.aspx.designer.cs">
+      <DependentUpon>AdminCards.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homePage.aspx.cs">
       <DependentUpon>homePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -79,6 +103,48 @@
       <DependentUpon>homePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seeBooks.aspx.cs">
+      <DependentUpon>seeBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeBooks.aspx.designer.cs">
+      <DependentUpon>seeBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seeMeetingRoom.aspx.cs">
+      <DependentUpon>seeMeetingRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeMeetingRoom.aspx.designer.cs">
+      <DependentUpon>seeMeetingRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Showbooks.aspx.cs">
+      <DependentUpon>Showbooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Showbooks.aspx.designer.cs">
+      <DependentUpon>Showbooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserCards.aspx.cs">
+      <DependentUpon>UserCards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserCards.aspx.designer.cs">
+      <DependentUpon>UserCards.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -11,7 +11,7 @@ namespace _28_1_2025
 {
 
 
-    public partial class homePage
+    public partial class UserCards
     {
 
         /// <summary>
@@ -24,21 +24,21 @@ namespace _28_1_2025
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// SignIn control.
+        /// seeBooks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SignIn;
+        protected global::System.Web.UI.WebControls.Button seeBooks;
 
         /// <summary>
-        /// SignUp control.
+        /// seeMeetingRoom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SignUp;
+        protected global::System.Web.UI.WebControls.Button seeMeetingRoom;
     }
 }
