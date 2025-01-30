@@ -11,7 +11,7 @@ namespace _28_1_2025
 {
 
 
-    public partial class UserCards
+    public partial class search
     {
 
         /// <summary>
@@ -24,30 +24,30 @@ namespace _28_1_2025
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// profile control.
+        /// searchTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button profile;
+        protected global::System.Web.UI.WebControls.TextBox searchTextBox;
 
         /// <summary>
-        /// seeBooks control.
+        /// searchBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button seeBooks;
+        protected global::System.Web.UI.WebControls.Button searchBtn;
 
         /// <summary>
-        /// seeMeetingRoom control.
+        /// result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button seeMeetingRoom;
+        protected global::System.Web.UI.WebControls.Label result;
     }
 }

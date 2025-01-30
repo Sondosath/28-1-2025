@@ -9,6 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Button runat="server" ID="profile" OnClick="profile_Click" Text="profile"  class="btn btn-primary"></asp:Button>
+
         <div style="display:flex;gap:10px; justify-content:space-evenly;">
                     <div><br /><br /><br />
             <div class="card" style="width: 18rem;">

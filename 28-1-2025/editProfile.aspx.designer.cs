@@ -11,7 +11,7 @@ namespace _28_1_2025
 {
 
 
-    public partial class UserCards
+    public partial class editProfile
     {
 
         /// <summary>
@@ -24,30 +24,30 @@ namespace _28_1_2025
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// profile control.
+        /// txtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button profile;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// seeBooks control.
+        /// txtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button seeBooks;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
-        /// seeMeetingRoom control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button seeMeetingRoom;
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }

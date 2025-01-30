@@ -47,5 +47,10 @@ namespace _28_1_2025
 
            
         }
+
+        protected void searchBox_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("search.aspx");
+        }
     }
 }

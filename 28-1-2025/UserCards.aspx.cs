@@ -21,8 +21,14 @@ namespace _28_1_2025
 
         protected void seeBooks_Click(object sender, EventArgs e)
         {
-            Response.Redirect("seeBooks.aspx");
+            Response.Redirect("Showbooks.aspx");
 
+        }
+
+        protected void profile_Click(object sender, EventArgs e)
+        {
+            
+            Response.Redirect("profile.aspx");
         }
     }
 }

@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="searchBox" OnClick="searchBox_Click" Text="Search by Id" runat="server"  ></asp:Button>
             <div class="container mt-5">
             <h2>Books List</h2>
             <table class="table table-bordered">

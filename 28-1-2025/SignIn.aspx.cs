@@ -31,6 +31,7 @@ namespace _28_1_2025
                 {
                     result.Text = "Wellcom Admin";
                     result.Visible = true;
+                    Session["UserEmail"] = "admin@example.com";
                     Response.Redirect("AdminCards.aspx");
                     return;  // breaak
 
@@ -40,6 +41,7 @@ namespace _28_1_2025
                 {
                     result.Text = "login successfully";
                     result.Visible = true;
+                    Session["UserEmail"] = userData[1];
                     Response.Redirect("UserCards.aspx");
                     return;  // breaak
 
